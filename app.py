@@ -25,7 +25,7 @@ app.config['UPLOAD_FOLDER'] = 'Uploaded Files'
 
 ALLOWED_EXTENSIONS = {'xlsx','csv'}
 
-app.config['SQLAlCHEMY_DATABASE_URI'] = 'postgres://sttfvrycyizhsc:6ae12c025070eae5f2d51556fd12a110a383e0a941fb43713601d99ec8eac496@ec2-54-160-200-167.compute-1.amazonaws.com:5432/d71smiv3tpadgl'
+app.config['SQLAlCHEMY_DATABASE_URI'] = 'postgres://gfuogdefrclifn:8906427129964e1097b33cc2056afffdc8e062734dc8b2d515f304098c8dfe6d@ec2-44-207-126-176.compute-1.amazonaws.com:5432/ddo4ibf7kl2dpg'
 
 mydb = SQLAlchemy(app)
 
